@@ -1,5 +1,5 @@
 import gsap from 'gsap';
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 
 
 
@@ -9,21 +9,20 @@ const AnimatedTitle = ({ title, containerClass }) => {
     
     useEffect(() => {
         const ctx = gsap.context(() => {
-            const titleAnimation = gsap.timeline({ repeat: -1, repeatDelay: 1, scrollTrigger:{
+            const titleAnimation = gsap.timeline({
+              repeat: -1,
+              repeatDelay: 1,
+              scrollTrigger: {
                 trigger: containerRef.current,
-                start: '100 bottom',
-                toggleActions: 'play none none reverse',
-                end: 'center bottom',
-                onEnter: () => {
-                    titleAnimation.play();
-                },
-                onLeave: () => {
-                    titleAnimation.pause();
-                }
-            } });
+                start: "100 bottom",
+                end: "center bottom",
+                  toggleActions: "play none none reverse",
+                  
+              },
+            });
             titleAnimation.to('.animated-word', {
                 opacity: 1,
-               transform: 'translate3d(0, 0, 0) rotateY(0deg), rotateX(0deg)', y: 20, duration: 1, ease: 'power2.inOut', stagger: 0.1
+               transform: 'translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg)', duration: 1, ease: 'power2.inOut', stagger: 0.02
             })
             
         }, containerRef)
@@ -45,6 +44,3 @@ const AnimatedTitle = ({ title, containerClass }) => {
 
 export default AnimatedTitle
 
-//  <div className="">
-//      
-//     </div>

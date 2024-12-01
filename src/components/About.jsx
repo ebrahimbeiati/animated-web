@@ -26,13 +26,13 @@ const About = () => {
 
 })
   return (
-    <div className="min-h-screen w-screen">
-      <div className="relative mb-8 mt-36  flex flex-col items-center gap-4 bg-violet-100">
+    <div  id="about" className="min-h-screen w-screen">
+      <div className="relative mb-8 mt-36  flex flex-col items-center gap-4">
         <h2 className="text-4xl font-general text-violet-900">
           Welcome to the game world
         </h2>
         <AnimatedTitle
-          title=" Discover the world of gaming"
+          title=" Disc<b>o</b>ver the world of g<b>a</b>ming"
           containerClass="mt-5 !text-black text-center"
         />
 
