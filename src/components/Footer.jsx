@@ -38,7 +38,7 @@ const Footer = () => {
             Ebrahim
           </p>
           <p className="mt-2 text-sm font-light tracking-wide text-gray-400">
-            "Innovating through the boundless multiverse."
+            Innovating through the boundless multiverse.
           </p>
         </div>
 
