@@ -48,7 +48,7 @@ To get started with this template, clone or fork the repository, then follow the
    ```
 
    This will bundle your application for production, optimizing it for performance.
-
+## github: https://github.com/ebrahimbeiati/animated-web
 ## Configuration
 
 You can customize this template by modifying the following files:
