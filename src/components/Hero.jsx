@@ -78,7 +78,7 @@ const upcomingVideoIndex =(currentIndex % totalVideos) + 1;
 
             return (
                 <section className="relative h-dvh w-screen overflow-x-hidden " id='home'>
-                    {
+                    {/* {
                         isLoading && (
                             <div className="flex-center absolute z-[100] h-dvh overflow-hidden bg-violet-100">
                                 <div className="three-body">
@@ -89,7 +89,7 @@ const upcomingVideoIndex =(currentIndex % totalVideos) + 1;
                                 </div>
                             </div>
                         )
-                    }
+                    } */}
                     <div
                         id="video-frame"
                         className="relative h-dvh w-screen z-10 overflow-hidden rounded-lg bg-blue-75"
