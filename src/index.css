@@ -271,3 +271,24 @@ body {
     opacity: 0.8;
   }
 }
+
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+
+form input, form textarea {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  box-shadow: 0 0 10px 2px #7f5af0;
+  transform: scale(1.02);
+}

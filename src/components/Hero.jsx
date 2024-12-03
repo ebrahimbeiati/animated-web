@@ -77,7 +77,7 @@ const upcomingVideoIndex =(currentIndex % totalVideos) + 1;
 
 
             return (
-                <div className="relative h-dvh w-screen overflow-x-hidden">
+                <section className="relative h-dvh w-screen overflow-x-hidden " id='home'>
                     {
                         isLoading && (
                             <div className="flex-center absolute z-[100] h-dvh overflow-hidden bg-violet-100">
@@ -155,9 +155,12 @@ const upcomingVideoIndex =(currentIndex % totalVideos) + 1;
                     <h1 className="special-font absolute  hero-heading bottom-5 right-5 5">
                         G<b>A</b>MING
                     </h1>
-                </div>
+                </section>
             )
 }
         
 
 export default Hero
+
+
+
