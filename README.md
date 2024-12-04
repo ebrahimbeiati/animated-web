@@ -38,7 +38,7 @@ To get started with this template, clone or fork the repository, then follow the
    npm run dev
    ```
 
-   This will start Vite's development server, and you should be able to access your app at `http://localhost:3000`.
+   This will start Vite's development server, and you should be able to access your app at `http://localhost:5173`.
 
 3. **Build the Project**  
    To create a production build, use:
@@ -48,14 +48,14 @@ To get started with this template, clone or fork the repository, then follow the
    ```
 
    This will bundle your application for production, optimizing it for performance.
-## github: https://github.com/ebrahimbeiati/animated-web
+
 ## Configuration
 
 You can customize this template by modifying the following files:
 
 - **`vite.config.ts`**: Configure Vite-specific settings.
 - **`.eslintrc.js`**: Modify ESLint rules as per your team’s coding standards.
-
+## github: https://github.com/ebrahimbeiati/animated-web
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
