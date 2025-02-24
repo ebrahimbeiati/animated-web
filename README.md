@@ -1,5 +1,7 @@
 # Animated Web
-
+#Live Demo 
+- [Live Demo](https://animated-web1.netlify.app/)
+- [GitHub Repository](https://github.com/ebrahimbeiati/animated-web)
 A modern React-based web application built with Vite and Tailwind CSS, featuring smooth animations and a highly responsive design.
 
 ## Features
@@ -43,8 +45,6 @@ Ensure you have Node.js (version 14 or newer) installed on your system.
 - Customize `.eslintrc.js` to adjust linting rules.
 
 ## Resources
-- [Live Demo](https://animated-web1.netlify.app/)
-- [GitHub Repository](https://github.com/ebrahimbeiati/animated-web)
 - [React Documentation](https://reactjs.org/)
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
