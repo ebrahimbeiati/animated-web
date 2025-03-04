@@ -1,5 +1,5 @@
 # Animated Web
-#Live Demo 
+##Live Demo 
 - [Live Demo](https://animated-web1.netlify.app/)
 - [GitHub Repository](https://github.com/ebrahimbeiati/animated-web)
 A modern React-based web application built with Vite and Tailwind CSS, featuring smooth animations and a highly responsive design.
@@ -15,7 +15,7 @@ A modern React-based web application built with Vite and Tailwind CSS, featuring
 ## Getting Started
 
 ### Prerequisites
-Ensure you have Node.js (version 14 or newer) installed on your system.
+Node.js (version 14 or newer).
 
 ### Installation
 1. Clone the repository:
