@@ -1,5 +1,5 @@
 # Animated Web
-##Live Demo 
+## Live Demo 
 - [Live Demo](https://animated-web1.netlify.app/)
 - [GitHub Repository](https://github.com/ebrahimbeiati/animated-web)
 A modern React-based web application built with Vite and Tailwind CSS, featuring smooth animations and a highly responsive design.
